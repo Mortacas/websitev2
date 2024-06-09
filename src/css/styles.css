@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.ocicon {
+
+    border-radius: 1.5em;
+    background-color: rgba(255, 254, 254, 0.6);
+    min-width: 250px;
+    max-width: 20%;
+    padding: 20px;
+}
+
+.ocicon:hover {
+
+    border-radius: 1em;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.searchicon,
+.acconticon,
+.abouticon,
+.contacticon,
+.adminicon,
+.editicon,
+.contacticon {
+    width: 85%;
+    min-width: 170px;
+}
+
+.small-image {
+    max-width: 80%;
+    min-width: 100px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    min-height: 95vh;
+    min-width: 95vw;
+}
+
+
+.header {
+    background: url(../images/redmountains.png);
+    background-size: cover;
+    background-position: center;
+    padding: 1em 1em 1em 1em;
+    text-align: center;
+}
+
+
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+
+.left,
+.right {
+    background-color: rgb(165, 19, 27);
+    /*border-radius: .2em;*/
+    padding: 1em 2em 1em 2em;
+    max-width: 100vh;
+    min-height: 80vh;
+
+
+}
+
+main {
+    padding: 1em 2em 1em 2em;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    display: grid;
+    grid-gap: 4px;
+    grid-template-areas:
+        'one two three four five six'
+}
+
+.homebutton {
+    grid-area: one;
+}
+
+.searchbutton {
+    grid-area: two;
+}
+
+.accountbutton {
+    grid-area: three;
+}
+
+.aboutbutton {
+    grid-area: four;
+}
+
+.contactbutton {
+    grid-area: five;
+}
+
+.adminbutton {
+    grid-area: six;
+}
+
+main>p {
+    font-family: sans-serif;   
+    line-height: 1.5em;
+}
+
+footer {
+    padding: 4em 2em 2em 2em;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+
+
+.right {
+    text-align: center;
+}
+
+
+.loginmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.leftSelfImages {
+    padding: 1em;
+    float: left;
+}
+
+.rightSelfImages {
+    padding: 1em;
+    float: right;
+
+}
+
+
+@media all and (max-width:1409px) {
+
+    .searchicon,
+    .acconticon,
+    .abouticon,
+    .contacticon,
+    .adminicon,
+    .editicon,
+    .contacticon {
+        width: 170px;
+    }
+
+    .button-container {
+        grid-template-areas:
+            'two three four'
+            'five six one';
+    }
+
+
+}
+
+@media all and (max-width:1030px) {
+
+    .main {
+        display: unset;
+    }
+
+    .button-container {
+        grid-template-areas:
+            'two three four five six';
+    }
+
+    main>p {
+        padding: 2em;
+    }
+
+    main>h1 {
+        padding: 1em;
+    }
+
+
+    .left,
+    .right {
+        border-radius: .2em;
+        padding: 1em 2em 1em 2em;
+        max-width: 120%;
+        min-height: unset;
+        max-height: fit-content;
+    }
+
+    .small-image {
+        max-width: 15%;
+        min-width: 100px;
+    }
+
+    main {
+        padding: 1em 2em 1em 2em;
+        width: 100%;
+    }
+
+
+}
+
+@media all and (max-width:938px) {
+
+    .button-container {
+        grid-template-areas:
+            'two three four'
+            'five six one';
+    }
+    main>p {
+        padding: unset;
+    }
+
+    main>h1 {
+        padding: unset;
+    }
+
+}
+
+@media all and (max-width:590px) {
+
+    .button-container {
+        grid-template-areas:
+            'two three'
+            'four five'
+            'six one';
+        min-height: 1%;
+        min-width: none;
+    }
+    .main{
+        padding: unset;
+    }
+    .searchicon,
+    .acconticon,
+    .abouticon,
+    .contacticon,
+    .adminicon,
+    .editicon,
+    .contacticon {
+        width:5%;
+    }
+
+}
