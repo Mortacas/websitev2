@@ -1,12 +1,10 @@
 <?php
 $db_path = '/home/app/w3s-dynamic-storage/database.db';
 
-// Ensure the directory exists
 if (!file_exists(dirname($db_path))) {
     mkdir(dirname($db_path), 0777, true);
 }
 
-// Delete the existing database if it exists
 if (file_exists($db_path)) {
     unlink($db_path);
     echo "Old database deleted.<br>";

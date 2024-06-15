@@ -14,7 +14,6 @@
 }
 
 .ocicon:hover {
-
     border-radius: 1em;
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -50,7 +49,6 @@ body {
     min-width: 95vw;
 }
 
-
 .header {
     background: url(../images/redmountains.png);
     background-size: cover;
@@ -59,23 +57,17 @@ body {
     text-align: center;
 }
 
-
-
 .main {
     display: flex;
     flex: 1;
 }
 
-
 .left,
 .right {
     background-color: rgb(165, 19, 27);
-    /*border-radius: .2em;*/
     padding: 1em 2em 1em 2em;
     max-width: 100vh;
     min-height: 80vh;
-
-
 }
 
 main {
@@ -150,12 +142,9 @@ footer {
 .rightSelfImages {
     padding: 1em;
     float: right;
-
 }
 
-
 @media all and (max-width:1409px) {
-
     .searchicon,
     .acconticon,
     .abouticon,
@@ -165,14 +154,11 @@ footer {
     .contacticon {
         width: 170px;
     }
-
     .button-container {
         grid-template-areas:
             'two three four'
             'five six one';
     }
-
-
 }
 
 @media all and (max-width:1030px) {
@@ -213,12 +199,9 @@ footer {
         padding: 1em 2em 1em 2em;
         width: 100%;
     }
-
-
 }
 
 @media all and (max-width:938px) {
-
     .button-container {
         grid-template-areas:
             'two three four'
@@ -227,15 +210,12 @@ footer {
     main>p {
         padding: unset;
     }
-
     main>h1 {
         padding: unset;
     }
-
 }
 
 @media all and (max-width:590px) {
-
     .button-container {
         grid-template-areas:
             'two three'
@@ -254,7 +234,14 @@ footer {
     .adminicon,
     .editicon,
     .contacticon {
-        width:5%;
+        width: unset;
     }
-
+    .left,
+.right {
+    max-width: 100vh;
+    min-height: unset;
+}
+main{
+    max-width: fit-content;
+}
 }

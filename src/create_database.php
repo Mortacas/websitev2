@@ -1,7 +1,6 @@
 <?php
 $db_path = '/home/app/w3s-dynamic-storage/database.db';
 
-// Ensure the directory exists
 if (!file_exists(dirname($db_path))) {
     mkdir(dirname($db_path), 0777, true);
 }

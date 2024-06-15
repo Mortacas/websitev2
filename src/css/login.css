@@ -1,10 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     background: url(../images/redmountains.png);
@@ -19,13 +17,11 @@ h1 {
     color: #000000; 
 }
 
-
 .header {
 
     padding: 2em;
     text-align: center;
 }
-
 
 .loginmain {
     display: flex;
@@ -64,6 +60,7 @@ input[type="password"]:focus {
     outline: none;
     border-color: #b02d01;
 }
+
 button {
     width: 100%;
     padding: 12px;
@@ -75,15 +72,15 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease-in-out; 
 }
+
 button:hover {
     background-color: #0056b3;
 }
+
 .ocicon{
     min-width: 300px;
     max-width: 25%;
 }
-
-
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -100,17 +97,15 @@ body{
    
 }
 
-.header{
- 
-    padding: 2em 2em 2em 2em; /* creates some edge space. top right bottom left */
+.header{ 
+    padding: 2em 2em 2em 2em; 
     text-align: center;
-}       /* creates some edge space. top right bottom left */
+}
 
 .main{
     display: flex;
     flex: 1;
 }
-
 
 main{
  
@@ -130,9 +125,6 @@ footer{
     text-align: center;
 }
 
-
-
-
 .loginmain {
     display: flex;
     justify-content: center;
@@ -140,11 +132,6 @@ footer{
  
 }
 
-
-
-
-
-/* need to add to make it responsive for mobile*/
 @media all and (max-width:550px){
     .main{
         flex-direction: column;

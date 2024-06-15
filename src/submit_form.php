@@ -5,14 +5,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
-    // Validate email
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         echo "Invalid email format";
         exit;
     }
 
-    // Email configuration
-    $to = "enteremail   need email server or php"; // Replace with your email address
+    $to = "enteremail   need email server or php or git pages to submitforms"; // Replace with email address
     $subject = "New Contact Form Submission";
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";

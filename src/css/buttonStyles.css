@@ -8,7 +8,6 @@
     cursor: pointer;
 }
 
-
 .dropbtn:hover,
 .dropbtn:focus,.searchicon:hover,
 .acconticon:hover,
@@ -20,7 +19,6 @@
     transform: scale(1.05); 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a shadow */
 }
-
 
 .dropdown {
     width: 140px;
@@ -58,4 +56,3 @@
 .show {
     display: block;
 }
-/*searchicon,acconticon,abouticon,contacticon,adminicon*/

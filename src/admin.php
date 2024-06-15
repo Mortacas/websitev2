@@ -15,13 +15,12 @@
     <header>
         <h1>
         <a href="index.php"><img src="images/mvpoclogo2.png" alt="OC MVP logo" class="ocicon"></a>
-        <a href="index.php"><i class="fa-solid fa-house"></i></a>
+        
         </h1>
         
     </header>
 
-    <main>
-    
+    <main>    
         <table id="entries_table">
             <tr>
                 <th>Unit ID</th>
@@ -40,7 +39,7 @@
             <h2>Add/Edit Entry </h2>
             <form id="entry_form">
                 <input type="hidden" id="entry_id" name="id">
-                <label for="unit_id">Unit ID:</label>
+                <label for=" unit_id">Unit ID:</label>
                 <input type="text" id="unit_id" name="unit_id" required>
                 <label for="book_name">Book Name:</label>
                 <input type="text" id="book_name" name="book_name" required>
@@ -61,23 +60,22 @@
         </div>
 
         <aside class="right">
-
-            <div class="button-container">
-                <h2>Administrator</h2>
+        
+        <h2>Administrator </h2>
+            <div class="button-container">                
                 <form id="upload_form" enctype="multipart/form-data">
-                    <label for="data_file">Choose file to Upload:</label>
-                    <input type="file" id="data_file" name="data_file" accept=".csv" required><br>
-                    <button type="button" onclick="uploadFile()">Upload</button>
-                </form>
-                <button onclick="exportToCSV()">Export to CSV</button>
+                    <label for="data_file"> Choose file to Upload:</label>
+                    <input type="file" id="data_file" name="data_file" accept=".csv" required>                    
+                </form>                
             </div>
-
+            <button type="button" onclick="uploadFile()">Upload</button>
+            <button onclick="exportToCSV()">Export to CSV</button>
         </aside>
     </main>
 
-    <footer>
-        <a href="#">Back to Top</a>
-        <p>&copy; 2024 Hollo Moto. All rights reserved.</p>
+    <footer>        
+            <a href="index.php"><i class="fa-solid fa-house"></i></a><a href="#"> Back to Top</a>
+            <p>&copy; 2024 Moe O. All rights reserved.</p>        
     </footer>
 </body>
 </html>

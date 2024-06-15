@@ -12,8 +12,7 @@
 <body>
     <header>
         <h1>
-            <a href="index.php"><img src="images/mvpoclogo2.png" alt="OC MVP logo" class="ocicon"></a>
-            <a href="index.php"><i class="fa-solid fa-house"></i></a>
+            <a href="index.php"><img src="images/mvpoclogo2.png" alt="OC MVP logo" class="ocicon"></a>            
         </h1>
     </header>
 
@@ -27,10 +26,10 @@
         </table>
     </main>
 
-    <footer>
-        <a href="#">Back to Top</a>
-        <p>&copy; 2024 Hollo Moto. All rights reserved.</p>
+    <footer>        
+            <a href="index.php"><i class="fa-solid fa-house"></i></a><a href="#"> Back to Top</a>
+            <p>&copy; 2024 Moe O. All rights reserved.</p>        
     </footer>
-
+            
 </body>
 </html>

@@ -1,4 +1,4 @@
-body {
+ body {
     margin: 0px;
     font-family: sans-serif;
     font-size: 14px;
@@ -8,7 +8,7 @@ header {
     text-align: center;
     position: sticky;
     width: 100vw;
-    height: 100px;
+    height: 300px;
 }
 
 .ocicon {
@@ -73,18 +73,6 @@ tr:hover {
     background-color: #f1f1f1;
 }
 
-input[type="text"],
-input[type="date"],
-input[type="file"],
-input[type="email"] {
-    width: 60px;
-    padding: 2px;
-    margin: 5px 2px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-}
-
 button {
     background-color: #a01919;
     color: rgb(255, 255, 255);
@@ -103,7 +91,6 @@ button:hover {
     background-color: #b91e1e;
 }
 
-
 footer {
     text-align: center;
     padding: 5px 0;
@@ -115,42 +102,6 @@ footer {
     width: 100%;
 }
 
-
-aside.right {
-    position: sticky;
-    bottom: 70px;
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    width: 100vw;
-    padding: 2px;
-    background: rgb(255, 255, 255);
-    border-radius: 4px;
-}
-
-
-#form_container {
-    position: sticky;
-    bottom: 110px;
-    background-color: white;
-    padding: 4px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: left;
-}
-
-#entry_form label {
-    margin: 2px;
-}
-
-#entry_form input,
-#entry_form button {
-    margin: 2px;
-}
 .dropbtn {
     background-color: #4c0606;
     color: rgb(255, 255, 255);

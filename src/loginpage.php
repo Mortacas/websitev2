@@ -7,7 +7,7 @@
     <title>Login Page</title> 
     <link rel="icon" type="image/jpg" href="images/favicon.png">       
     <link rel="stylesheet" href="css/login.css">
-
+    <script src="https://kit.fontawesome.com/8acb3ba4c3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -45,9 +45,10 @@
     <script src="scripts/logjava.js" type="text/javascript"></script>
 </body>
 
-<footer>    
-        <h3>&copy; 2024 Moe O. All rights reserved.</h3>
-</footer>
+    <footer>        
+            <a href="index.php"><i class="fa-solid fa-house"></i></a>
+            <p>&copy; 2024 Moe O. All rights reserved.</p>        
+    </footer>
 
 
 </html>

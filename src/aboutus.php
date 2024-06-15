@@ -64,34 +64,25 @@
                 individuals in need of our services and contribute to the enhancement of support systems within our
                 community.</p><br>
 
-
             <br><br>
             <div class="aboutimages">                
-                    <a href="https://www.army.mil/ranger/"><img src="images/Moe.png" alt="solider"></a>
-                    <a href="https://www.navy.mil/"><img src="images/dimage.jpg" alt="solider"></a>              
-
+                <a href="https://www.army.mil/ranger/"><img src="images/Moe.png" alt="solider"></a>
+                <a href="https://www.navy.mil/"><img src="images/dimage.jpg" alt="solider"></a>              
                 
-                    <a href="https://www.army.mil/ranger/"><img src="images/moeUniform.jpg" alt="solider"></a>
-                    <a href="https://www.navy.mil/"><img src="images/dimagenvy.jpg" alt="solider"></a>                
-
+                <a href="https://www.army.mil/ranger/"><img src="images/moeUniform.jpg" alt="solider"></a>
+                <a href="https://www.navy.mil/"><img src="images/dimagenvy.jpg" alt="solider"></a>                
                 
-                    <a href="https://www.army.mil/ranger/"><img src="images/rangerComeOver.jpg" alt="solider"></a>
-                    <a href="https://www.navy.mil/"><img src="images/dimagenvy2.jpg" alt="solider"></a>               
-
+                <a href="https://www.army.mil/ranger/"><img src="images/rangerComeOver.jpg" alt="solider"></a>
+                <a href="https://www.navy.mil/"><img src="images/dimagenvy2.jpg" alt="solider"></a>               
                 
-                    <a href="https://www.army.mil/ranger/"><img src="images/MoeWea.png" alt="solider"></a>
-               
+                <a href="https://www.army.mil/ranger/"><img src="images/MoeWea.png" alt="solider"></a>
             </div>
-
             <footer>
                 <h3>
                     <p>&copy; 2024 Moe O. All rights reserved.</p>
                 </h3>
-                <!--Dont need this anymore<a href="#">Back to Top</a>-->
             </footer>
-
         </main>
-
         <aside class="right">
             <div class="right-images">
                 <a href="https://studentveterans.org/chapters/student-resources/" target="_blank"><img

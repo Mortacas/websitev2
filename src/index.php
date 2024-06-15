@@ -67,7 +67,6 @@
                 <h3>
                     <p>&copy; 2024 Moe O. All rights reserved.</p>
                 </h3>
-                <!--Dont need this anymore<a href="#">Back to Top</a>-->
             </footer>
         </main>
 
