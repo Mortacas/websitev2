@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Layout</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+
+    
+    <script src="./scripts/scripts.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/8acb3ba4c3.js" crossorigin="anonymous"></script>
 </head>
@@ -14,13 +22,14 @@
     <header>
         <div class="leftheader">
             <a href="index.php" class="no-link-style">
-                <p>OLYMPIC COLLEGE</p>
+                <p>OLYMPIC</p>
+                <p>COLLEGE</p>
             </a>
         </div>
 
         <div class="centerheader">
-            <div class="content-box1">Military & Veterans Service </div>
-            <div class="content-box2"> Free Lending Library</div>
+            <div class="content-box1">STUDENT VETERANS OF AMERICA</div>
+            <div class="content-box2">Book Lending Library</div>
         </div>
 
         <div class="rightheader">
@@ -33,28 +42,29 @@
         </div>
     </header>
 
-    <div class="topmain">
+    <main>
 
 
-        <main class="centerbody">
-            <div class="content-box3">STUDENT VETERANS OF AMERICA</div>
+        <div class="topmain">
+            <div class="content-box3">Military & Veteran Services</div>
             <div class="content-box4">LENDING LIBRARY</div>
-            <div class="content-box5">SVA/MVP</div>
+            <div class="content-box5">Free Services to All OC Students</div>
+        </div>
 
-        </main>
-        <!--this needs to be moved to as script file-->
-<script>
-const divToRemove = document.querySelector('.centerheader');
-if (window.innerWidth < 445) {
-  divToRemove.remove();
-}
-</script>
-            <!--this needs to be moved to as script file-->
+        <div class="centermain">
+            <div class="search-container">
+        <!-- Search bar for books -->
+        <input type="text" class="search-bar" placeholder="Search books..." />
 
-
-
-        <div class="bottommain"></div>
+        <!-- Button for searching entire library -->
+        <button class="search-button">Search Entire Library</button>
     </div>
+
+        </div>
+
+        <div class="bottommain">
+        </div>
+    </main>
 
     <footer>
         <div class="footer-content">
